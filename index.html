@@ -1,17 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-        <h1>Hello World</h1>  
-    </main>
-	<script src="index.js"></script>
-  </body>
+    <title>Fugazy</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./photos/fugNoBGFavicon.png">
+</head>
+<body>
+
+    <nav>
+        <h2><a href="#">Fugazy</a></h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#getfugazy">How to buy</a></li>
+            <li><a href="#">Telegram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">BUY NOW</a></li>
+        </ul>
+        <!--<button class="btn-grad">Buy Now</button>-->
+    </nav>
+    
+    <div id="mainBody">
+        <div class="text-container">
+        
+                <div class="block-effect" style="--td: .3s">
+                    <div class="block-reveal" style="--bc: #36e1f7; --d: .1s">
+                        <h1>Meet</h1>
+                    </div>
+
+
+
+
+                    <div class="block-reveal" style="--bc: #bf4060; --d: .5s">
+                        <h1>Fugazy</h1>
+                    </div>
+
+
+                </div>
+
+                <p>$FUG. It's about nothing.</p>
+        </div>
+        <div class="image-container">
+            <img src="./photos/fugNoBG.png" alt="Fugazy - The Head made of Air/Clouds">
+        </div>
+        <a href="#about" id="arrow">
+            <div class="indicator">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+    </div>
+    
+    
+
+    <div id="about">
+        <div style="width: 40%">
+            <h2>About Fugazy</h2>
+            <p>
+                What is crypto really about? <br>
+                Everything you see you is on a screen, you can't actually hold anything. <br>
+                It's fairy dust with a price on it. <span class="underline">It's all nothing really, its fugazi.</span>
+            </p>    
+            <p>Fygazy is here to represent that.</p>
+        </div> 
+        
+        <div style="width:40%">
+            <h2>Explained by the best</h2>  
+            <video  controls>
+                <source src="./videos/wow1Small.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- 
+               <h2>Key Features</h2>
+        <ul>
+            <li>Complete scarcity - there's nothing more rare than Fugazy!</li>
+            <li>No utility - because who needs utility when you're made of air?</li>
+            <li>Fictional technology - Fugazy is powered by imaginary forces and whimsical wonders.</li>
+        </ul>
+    -->
+
+    <div id="info">
+        <div id="leftcontainer">
+            <h2>Tokenomics</h2>
+            <div class="card">
+                <h3>Token Symbol: $FUG</h3><br>
+                <h3>69 Billion Total Supply</h3>
+                <p>🟢 Ownership Renounced</p>
+                <p>🟢 Liquidity Pool Burned</p>
+                <p>🟢 0/0 Tax</p>
+                <p>🟢 Fair launch</p>
+                <p>🟢 Community Owned<p><br>
+                <h3 style="margin: 0;">Contract address</h3>
+                <p id="address">jTKCTEEEEEEEEESTniGcDeXgTdteaslMeoRFVCpew230</p>
+            </div>
+        </div>
+        <div id="rightcontainer">
+            <h2>Roadmap</h2>
+            <img id="noTimeGif" src="./gifs/giphy.gif">
+        </div>
+    </div>
+
+    <div id="getfugazy">
+        <h2>How to buy</h2>
+		<div class="container">
+            <div class="buyCard">   
+                <p>Step 1</p>
+                <h1 class="title">Get Some SOL</h1>
+                <p class="subtitle">Convert some of your funds to Solana ($SOL) using a centralised exchange. (Binance, Coinbase etc.)</p>
+                <img class="buyPhotos" src="./photos/photosBuy/sol.png">
+            </div>
+            <div class="buyCard">   
+                <p>Step 2</p>
+                <h1 class="title">Send SOL to Wallet</h1>
+                <p class="subtitle">Create a Solana wallet (We recommend Phantom) and send your $SOL there.</p>
+                <img class="buyPhotos" src="./photos/photosBuy/wallet1.png">
+                <!--<button class="btn">Get Started</button>-->
+            </div>
+            <div class="buyCard">   
+                <p>Step 3</p>
+                <h1 class="title">Visit DEX</h1>
+                <p class="subtitle">Visit Raydium or Jupiter and connect your wallet.  
+                    Copy $FUG address, paste it into the swap and start swapping.</p>
+                <img class="buyPhotos" src="./photos/photosBuy/ray.png">
+                <!--<button class="btn">Get Started</button>-->
+            </div>
+            <div class="buyCard">   
+                <p>Step 4</p>
+                <h1 class="title">Swap SOL for $FUG</h1>
+                <p class="subtitle">Swap SOL for $FUG.
+                     That's it!</p>
+                <img class="buyPhotos" src="./photos/photosBuy/fugNoBG.png">
+            </div>
+            <div class="blob"></div>
+          </div>
+          <p class="ortext">Or click below</p>
+          <button class="btn-grad" style="margin: auto;">Buy Now</button>
+    </div>
+
+
+    
+    
+    <div id="sectiona">
+        <div id="leftfooter">
+            <div id="leftfooterFlex">
+                <img src="./photos/fugNoBG.png">
+                <a><h1>Fugazy</h1></a>
+            </div>
+            <p style="margin: 0 0 0 20px">It's really about nothing.</p>
+        </div>
+        <div id="middlefooter">
+            <h1>Disclaimer</h1>
+            <p>Fugazy is a meme coin with no intrinsic value or expectation of financial return. There is no formal team and roadmap. The coin is for entertainment purposes only.</p>
+            <!--<p>This website is purely fictional and created for entertainment purposes only.</p>-->
+        </div>
+        <div id="rightfooter">
+            <h1>Community and Social Media</h1>
+            <p>Join the Fugazy community on our social media platforms for the latest updates, memes, and imaginary events!</p>
+            <ul id="ulSocial">
+                <li><a  href="#" target="_blank"><img class="socialLink" src="./photos/telegram.png"></a></li>
+                <li><a  href="#" target="_blank"><img class="socialLink" src="./photos/x.png"></a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
 </html>
+    
+
+<!--Where holding nothing feels like holding everything in the wild world of crypto illusions-->
